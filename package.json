@@ -1,0 +1,14 @@
+{
+  "name": "london-tube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "prompt-sync": "^4.2.0"
+  }
+}

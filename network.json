@@ -1,0 +1,73 @@
+{
+  "zones": 3,
+  "stations": [
+    {
+      "id": "holburn",
+      "name": "Holburn",
+      "zones": [1]
+    },
+    {
+      "id": "chelsea",
+      "name": "Chelsea",
+      "zones": [1]
+    },
+    {
+      "id": "earls_court",
+      "name": "Earl's Court",
+      "zones": [1, 2]
+    },
+    {
+      "id": "wimbledon",
+      "name": "Wimbledon",
+      "zones": [3]
+    },
+    {
+      "id": "hammersmith",
+      "name": "Hammersmith",
+      "zones": [2]
+    }
+  ],
+  "fares": [
+    {
+      "type": "any",
+      "length": 1,
+      "rule": {
+        "includes": [1]
+      },
+      "price": 2.5
+    },
+    {
+      "type": "any",
+      "length": 1,
+      "rule": {
+        "excludes": [1]
+      },
+      "price": 2
+    },
+    {
+      "type": "any",
+      "length": 2,
+      "rule": {
+        "includes": [1]
+      },
+      "price": 3
+    },
+    {
+      "type": "any",
+      "length": 2,
+      "rule": {
+        "excludes": [1]
+      },
+      "price": 2.25
+    },
+    {
+      "type": "any",
+      "length": 3,
+      "price": 3.2
+    },
+    {
+      "type": "bus",
+      "price": 1.8
+    }
+  ]
+}
